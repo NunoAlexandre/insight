@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB5502A2654FCF800747F21 /* InsightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550292654FCF800747F21 /* InsightApp.swift */; };
+		BCB5502C2654FCF800747F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5502B2654FCF800747F21 /* ContentView.swift */; };
+		BCB5502E2654FCF900747F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB5502D2654FCF900747F21 /* Assets.xcassets */; };
+		BCB550312654FCF900747F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB550302654FCF900747F21 /* Preview Assets.xcassets */; };
+		BCB5503C2654FCF900747F21 /* InsightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5503B2654FCF900747F21 /* InsightTests.swift */; };
+		BCB550472654FCF900747F21 /* InsightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550462654FCF900747F21 /* InsightUITests.swift */; };
+		BCB5504C2654FCF900747F21 /* Insight WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BCB5504B2654FCF900747F21 /* Insight WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCB550512654FCFA00747F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB550502654FCFA00747F21 /* Assets.xcassets */; };
+		BCB550582654FCFA00747F21 /* Insight WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BCB550572654FCFA00747F21 /* Insight WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCB5505D2654FCFA00747F21 /* InsightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5505C2654FCFA00747F21 /* InsightApp.swift */; };
+		BCB5505F2654FCFA00747F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5505E2654FCFA00747F21 /* ContentView.swift */; };
+		BCB550612654FCFA00747F21 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550602654FCFA00747F21 /* NotificationController.swift */; };
+		BCB550632654FCFA00747F21 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550622654FCFA00747F21 /* NotificationView.swift */; };
+		BCB550652654FCFA00747F21 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550642654FCFA00747F21 /* ComplicationController.swift */; };
+		BCB550672654FCFA00747F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB550662654FCFA00747F21 /* Assets.xcassets */; };
+		BCB5506A2654FCFA00747F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB550692654FCFA00747F21 /* Preview Assets.xcassets */; };
+		BCB550762654FCFA00747F21 /* Insight_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550752654FCFA00747F21 /* Insight_WatchKit_AppTests.swift */; };
+		BCB550812654FCFA00747F21 /* Insight_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB550802654FCFA00747F21 /* Insight_WatchKit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCB550382654FCF900747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB550252654FCF800747F21;
+			remoteInfo = Insight;
+		};
+		BCB550432654FCF900747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB550252654FCF800747F21;
+			remoteInfo = Insight;
+		};
+		BCB5504D2654FCF900747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB5504A2654FCF900747F21;
+			remoteInfo = "Insight WatchKit App";
+		};
+		BCB550592654FCFA00747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB550562654FCFA00747F21;
+			remoteInfo = "Insight WatchKit Extension";
+		};
+		BCB550722654FCFA00747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB550562654FCFA00747F21;
+			remoteInfo = "Insight WatchKit Extension";
+		};
+		BCB5507D2654FCFA00747F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB5501E2654FCF800747F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB5504A2654FCF900747F21;
+			remoteInfo = "Insight WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCB550882654FCFA00747F21 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCB550582654FCFA00747F21 /* Insight WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5508C2654FCFA00747F21 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BCB5504C2654FCF900747F21 /* Insight WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCB550262654FCF800747F21 /* Insight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB550292654FCF800747F21 /* InsightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightApp.swift; sourceTree = "<group>"; };
+		BCB5502B2654FCF800747F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCB5502D2654FCF900747F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB550302654FCF900747F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCB550322654FCF900747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB550372654FCF900747F21 /* InsightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5503B2654FCF900747F21 /* InsightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightTests.swift; sourceTree = "<group>"; };
+		BCB5503D2654FCF900747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB550422654FCF900747F21 /* InsightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB550462654FCF900747F21 /* InsightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightUITests.swift; sourceTree = "<group>"; };
+		BCB550482654FCF900747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB5504B2654FCF900747F21 /* Insight WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insight WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB550502654FCFA00747F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB550522654FCFA00747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB550572654FCFA00747F21 /* Insight WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Insight WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5505C2654FCFA00747F21 /* InsightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightApp.swift; sourceTree = "<group>"; };
+		BCB5505E2654FCFA00747F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCB550602654FCFA00747F21 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BCB550622654FCFA00747F21 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		BCB550642654FCFA00747F21 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BCB550662654FCFA00747F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB550692654FCFA00747F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCB5506B2654FCFA00747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB5506C2654FCFA00747F21 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BCB550712654FCFA00747F21 /* Insight WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insight WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB550752654FCFA00747F21 /* Insight_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insight_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		BCB550772654FCFA00747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB5507C2654FCFA00747F21 /* Insight WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insight WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB550802654FCFA00747F21 /* Insight_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insight_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		BCB550822654FCFA00747F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB550232654FCF800747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550342654FCF900747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5503F2654FCF900747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550542654FCFA00747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5506E2654FCFA00747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550792654FCFA00747F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB5501D2654FCF800747F21 = {
+			isa = PBXGroup;
+			children = (
+				BCB550282654FCF800747F21 /* Insight */,
+				BCB5503A2654FCF900747F21 /* InsightTests */,
+				BCB550452654FCF900747F21 /* InsightUITests */,
+				BCB5504F2654FCF900747F21 /* Insight WatchKit App */,
+				BCB5505B2654FCFA00747F21 /* Insight WatchKit Extension */,
+				BCB550742654FCFA00747F21 /* Insight WatchKit AppTests */,
+				BCB5507F2654FCFA00747F21 /* Insight WatchKit AppUITests */,
+				BCB550272654FCF800747F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB550272654FCF800747F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550262654FCF800747F21 /* Insight.app */,
+				BCB550372654FCF900747F21 /* InsightTests.xctest */,
+				BCB550422654FCF900747F21 /* InsightUITests.xctest */,
+				BCB5504B2654FCF900747F21 /* Insight WatchKit App.app */,
+				BCB550572654FCFA00747F21 /* Insight WatchKit Extension.appex */,
+				BCB550712654FCFA00747F21 /* Insight WatchKit AppTests.xctest */,
+				BCB5507C2654FCFA00747F21 /* Insight WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB550282654FCF800747F21 /* Insight */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550292654FCF800747F21 /* InsightApp.swift */,
+				BCB5502B2654FCF800747F21 /* ContentView.swift */,
+				BCB5502D2654FCF900747F21 /* Assets.xcassets */,
+				BCB550322654FCF900747F21 /* Info.plist */,
+				BCB5502F2654FCF900747F21 /* Preview Content */,
+			);
+			path = Insight;
+			sourceTree = "<group>";
+		};
+		BCB5502F2654FCF900747F21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550302654FCF900747F21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCB5503A2654FCF900747F21 /* InsightTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5503B2654FCF900747F21 /* InsightTests.swift */,
+				BCB5503D2654FCF900747F21 /* Info.plist */,
+			);
+			path = InsightTests;
+			sourceTree = "<group>";
+		};
+		BCB550452654FCF900747F21 /* InsightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550462654FCF900747F21 /* InsightUITests.swift */,
+				BCB550482654FCF900747F21 /* Info.plist */,
+			);
+			path = InsightUITests;
+			sourceTree = "<group>";
+		};
+		BCB5504F2654FCF900747F21 /* Insight WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550502654FCFA00747F21 /* Assets.xcassets */,
+				BCB550522654FCFA00747F21 /* Info.plist */,
+			);
+			path = "Insight WatchKit App";
+			sourceTree = "<group>";
+		};
+		BCB5505B2654FCFA00747F21 /* Insight WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5505C2654FCFA00747F21 /* InsightApp.swift */,
+				BCB5505E2654FCFA00747F21 /* ContentView.swift */,
+				BCB550602654FCFA00747F21 /* NotificationController.swift */,
+				BCB550622654FCFA00747F21 /* NotificationView.swift */,
+				BCB550642654FCFA00747F21 /* ComplicationController.swift */,
+				BCB550662654FCFA00747F21 /* Assets.xcassets */,
+				BCB5506B2654FCFA00747F21 /* Info.plist */,
+				BCB5506C2654FCFA00747F21 /* PushNotificationPayload.apns */,
+				BCB550682654FCFA00747F21 /* Preview Content */,
+			);
+			path = "Insight WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BCB550682654FCFA00747F21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550692654FCFA00747F21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCB550742654FCFA00747F21 /* Insight WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550752654FCFA00747F21 /* Insight_WatchKit_AppTests.swift */,
+				BCB550772654FCFA00747F21 /* Info.plist */,
+			);
+			path = "Insight WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		BCB5507F2654FCFA00747F21 /* Insight WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB550802654FCFA00747F21 /* Insight_WatchKit_AppUITests.swift */,
+				BCB550822654FCFA00747F21 /* Info.plist */,
+			);
+			path = "Insight WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB550252654FCF800747F21 /* Insight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB5508D2654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight" */;
+			buildPhases = (
+				BCB550222654FCF800747F21 /* Sources */,
+				BCB550232654FCF800747F21 /* Frameworks */,
+				BCB550242654FCF800747F21 /* Resources */,
+				BCB5508C2654FCFA00747F21 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB5504E2654FCF900747F21 /* PBXTargetDependency */,
+			);
+			name = Insight;
+			productName = Insight;
+			productReference = BCB550262654FCF800747F21 /* Insight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCB550362654FCF900747F21 /* InsightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550902654FCFA00747F21 /* Build configuration list for PBXNativeTarget "InsightTests" */;
+			buildPhases = (
+				BCB550332654FCF900747F21 /* Sources */,
+				BCB550342654FCF900747F21 /* Frameworks */,
+				BCB550352654FCF900747F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB550392654FCF900747F21 /* PBXTargetDependency */,
+			);
+			name = InsightTests;
+			productName = InsightTests;
+			productReference = BCB550372654FCF900747F21 /* InsightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCB550412654FCF900747F21 /* InsightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550932654FCFA00747F21 /* Build configuration list for PBXNativeTarget "InsightUITests" */;
+			buildPhases = (
+				BCB5503E2654FCF900747F21 /* Sources */,
+				BCB5503F2654FCF900747F21 /* Frameworks */,
+				BCB550402654FCF900747F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB550442654FCF900747F21 /* PBXTargetDependency */,
+			);
+			name = InsightUITests;
+			productName = InsightUITests;
+			productReference = BCB550422654FCF900747F21 /* InsightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BCB5504A2654FCF900747F21 /* Insight WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550892654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit App" */;
+			buildPhases = (
+				BCB550492654FCF900747F21 /* Resources */,
+				BCB550882654FCFA00747F21 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB5505A2654FCFA00747F21 /* PBXTargetDependency */,
+			);
+			name = "Insight WatchKit App";
+			productName = "Insight WatchKit App";
+			productReference = BCB5504B2654FCF900747F21 /* Insight WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BCB550562654FCFA00747F21 /* Insight WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550852654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit Extension" */;
+			buildPhases = (
+				BCB550532654FCFA00747F21 /* Sources */,
+				BCB550542654FCFA00747F21 /* Frameworks */,
+				BCB550552654FCFA00747F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insight WatchKit Extension";
+			productName = "Insight WatchKit Extension";
+			productReference = BCB550572654FCFA00747F21 /* Insight WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		BCB550702654FCFA00747F21 /* Insight WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550962654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit AppTests" */;
+			buildPhases = (
+				BCB5506D2654FCFA00747F21 /* Sources */,
+				BCB5506E2654FCFA00747F21 /* Frameworks */,
+				BCB5506F2654FCFA00747F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB550732654FCFA00747F21 /* PBXTargetDependency */,
+			);
+			name = "Insight WatchKit AppTests";
+			productName = "Insight WatchKit AppTests";
+			productReference = BCB550712654FCFA00747F21 /* Insight WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCB5507B2654FCFA00747F21 /* Insight WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB550992654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit AppUITests" */;
+			buildPhases = (
+				BCB550782654FCFA00747F21 /* Sources */,
+				BCB550792654FCFA00747F21 /* Frameworks */,
+				BCB5507A2654FCFA00747F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB5507E2654FCFA00747F21 /* PBXTargetDependency */,
+			);
+			name = "Insight WatchKit AppUITests";
+			productName = "Insight WatchKit AppUITests";
+			productReference = BCB5507C2654FCFA00747F21 /* Insight WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB5501E2654FCF800747F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BCB550252654FCF800747F21 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCB550362654FCF900747F21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCB550252654FCF800747F21;
+					};
+					BCB550412654FCF900747F21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCB550252654FCF800747F21;
+					};
+					BCB5504A2654FCF900747F21 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCB550562654FCFA00747F21 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCB550702654FCFA00747F21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCB550562654FCFA00747F21;
+					};
+					BCB5507B2654FCFA00747F21 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCB5504A2654FCF900747F21;
+					};
+				};
+			};
+			buildConfigurationList = BCB550212654FCF800747F21 /* Build configuration list for PBXProject "Insight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB5501D2654FCF800747F21;
+			productRefGroup = BCB550272654FCF800747F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB550252654FCF800747F21 /* Insight */,
+				BCB550362654FCF900747F21 /* InsightTests */,
+				BCB550412654FCF900747F21 /* InsightUITests */,
+				BCB5504A2654FCF900747F21 /* Insight WatchKit App */,
+				BCB550562654FCFA00747F21 /* Insight WatchKit Extension */,
+				BCB550702654FCFA00747F21 /* Insight WatchKit AppTests */,
+				BCB5507B2654FCFA00747F21 /* Insight WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB550242654FCF800747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550312654FCF900747F21 /* Preview Assets.xcassets in Resources */,
+				BCB5502E2654FCF900747F21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550352654FCF900747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550402654FCF900747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550492654FCF900747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550512654FCFA00747F21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550552654FCFA00747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5506A2654FCFA00747F21 /* Preview Assets.xcassets in Resources */,
+				BCB550672654FCFA00747F21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5506F2654FCFA00747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5507A2654FCFA00747F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB550222654FCF800747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5502C2654FCF800747F21 /* ContentView.swift in Sources */,
+				BCB5502A2654FCF800747F21 /* InsightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550332654FCF900747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB5503C2654FCF900747F21 /* InsightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5503E2654FCF900747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550472654FCF900747F21 /* InsightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550532654FCFA00747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550612654FCFA00747F21 /* NotificationController.swift in Sources */,
+				BCB5505F2654FCFA00747F21 /* ContentView.swift in Sources */,
+				BCB550652654FCFA00747F21 /* ComplicationController.swift in Sources */,
+				BCB5505D2654FCFA00747F21 /* InsightApp.swift in Sources */,
+				BCB550632654FCFA00747F21 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5506D2654FCFA00747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550762654FCFA00747F21 /* Insight_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB550782654FCFA00747F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB550812654FCFA00747F21 /* Insight_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCB550392654FCF900747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB550252654FCF800747F21 /* Insight */;
+			targetProxy = BCB550382654FCF900747F21 /* PBXContainerItemProxy */;
+		};
+		BCB550442654FCF900747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB550252654FCF800747F21 /* Insight */;
+			targetProxy = BCB550432654FCF900747F21 /* PBXContainerItemProxy */;
+		};
+		BCB5504E2654FCF900747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB5504A2654FCF900747F21 /* Insight WatchKit App */;
+			targetProxy = BCB5504D2654FCF900747F21 /* PBXContainerItemProxy */;
+		};
+		BCB5505A2654FCFA00747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB550562654FCFA00747F21 /* Insight WatchKit Extension */;
+			targetProxy = BCB550592654FCFA00747F21 /* PBXContainerItemProxy */;
+		};
+		BCB550732654FCFA00747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB550562654FCFA00747F21 /* Insight WatchKit Extension */;
+			targetProxy = BCB550722654FCFA00747F21 /* PBXContainerItemProxy */;
+		};
+		BCB5507E2654FCFA00747F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB5504A2654FCF900747F21 /* Insight WatchKit App */;
+			targetProxy = BCB5507D2654FCFA00747F21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCB550832654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCB550842654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BCB550862654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insight WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4448Q277;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Insight WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BCB550872654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insight WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4448Q277;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Insight WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		BCB5508A2654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				IBSC_MODULE = Insight_WatchKit_Extension;
+				INFOPLIST_FILE = "Insight WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BCB5508B2654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				IBSC_MODULE = Insight_WatchKit_Extension;
+				INFOPLIST_FILE = "Insight WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		BCB5508E2654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insight/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4448Q277;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Insight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB5508F2654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Insight/Preview Content\"";
+				DEVELOPMENT_TEAM = NR4448Q277;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Insight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.Insight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB550912654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = InsightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.InsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight.app/Insight";
+			};
+			name = Debug;
+		};
+		BCB550922654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = InsightTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.InsightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight.app/Insight";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB550942654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = InsightUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.InsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Insight;
+			};
+			name = Debug;
+		};
+		BCB550952654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = InsightUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nunoalexandre.InsightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Insight;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB550972654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = "Insight WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nunoalexandre.Insight-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight WatchKit Extension.appex/Insight WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BCB550982654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = "Insight WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nunoalexandre.Insight-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insight WatchKit Extension.appex/Insight WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		BCB5509A2654FCFA00747F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = "Insight WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nunoalexandre.Insight-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Insight WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BCB5509B2654FCFA00747F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NR4448Q277;
+				INFOPLIST_FILE = "Insight WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nunoalexandre.Insight-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Insight WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB550212654FCF800747F21 /* Build configuration list for PBXProject "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB550832654FCFA00747F21 /* Debug */,
+				BCB550842654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550852654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB550862654FCFA00747F21 /* Debug */,
+				BCB550872654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550892654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5508A2654FCFA00747F21 /* Debug */,
+				BCB5508B2654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB5508D2654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5508E2654FCFA00747F21 /* Debug */,
+				BCB5508F2654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550902654FCFA00747F21 /* Build configuration list for PBXNativeTarget "InsightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB550912654FCFA00747F21 /* Debug */,
+				BCB550922654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550932654FCFA00747F21 /* Build configuration list for PBXNativeTarget "InsightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB550942654FCFA00747F21 /* Debug */,
+				BCB550952654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550962654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB550972654FCFA00747F21 /* Debug */,
+				BCB550982654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB550992654FCFA00747F21 /* Build configuration list for PBXNativeTarget "Insight WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB5509A2654FCFA00747F21 /* Debug */,
+				BCB5509B2654FCFA00747F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB5501E2654FCF800747F21 /* Project object */;
+}
